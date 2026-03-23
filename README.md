@@ -42,41 +42,6 @@ streamlit run app.py
 
 ---
 
-## ☁️ 部署到 Streamlit Cloud
-
-### 方法 1：通过 GitHub（推荐）
-
-1. **创建 GitHub 仓库**
-   - 登录 GitHub，创建新仓库（例如：`html-editor`）
-   - 将所有文件上传到仓库
-
-2. **连接 Streamlit Cloud**
-   - 访问 [share.streamlit.io](https://share.streamlit.io)
-   - 使用 GitHub 账号登录
-   - 点击 "New app"
-
-3. **配置部署**
-   - Repository: 选择你的 `html-editor` 仓库
-   - Branch: `main`
-   - Main file path: `app.py`
-   - 点击 "Deploy"
-
-4. **等待部署**
-   - 几分钟后，你的应用就会上线
-   - 获得一个公开的 URL（例如：`your-app.streamlit.app`）
-
-### 方法 2：直接从本地部署
-
-1. 访问 [share.streamlit.io](https://share.streamlit.io)
-2. 点击 "New app" → "I have an app"
-3. 选择 "Paste GitHub URL" 并输入你的仓库地址
-4. 或者使用 Streamlit CLI：
-   ```bash
-   streamlit cloud deploy app.py
-   ```
-
----
-
 ## 📖 使用说明
 
 ### 上传 HTML 文件
